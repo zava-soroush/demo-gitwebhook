@@ -15,7 +15,9 @@ phases:
       php: 7.3
   build:
     commands:
-      - php -l *
+      - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+      - php composer-setup.php
+      - composer install
       #post_build:
       #commands:
       # - command
