@@ -23,12 +23,12 @@ phases:
       #post_build:
       #commands:
       # - command
-artifacts:
-  files:
-    - './vendor/**/*'
-    - './composer-cache/**/*'
-    - './root/.composer/**/*'
-  name: artifact-name
+#artifacts:
+#  files:
+#    - './vendor/**/*'
+#    - './composer-cache/**/*'
+#    - './root/.composer/**/*'
+#  name: artifact-name
 cache:
   paths:
     - './vendor/**/*'
