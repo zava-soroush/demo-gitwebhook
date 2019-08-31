@@ -1,5 +1,8 @@
 {
     "require": {
         "friendsofphp/php-cs-fixer": "^2.15"
+    },
+    "config": {
+        "cache-dir": "./composer-cache"
     }
 }
