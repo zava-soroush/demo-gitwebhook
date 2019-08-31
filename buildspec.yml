@@ -28,8 +28,9 @@ artifacts:
     - '/vendor/**/*'
     - '/composer-cache/**/*'
     - '/root/.composer/**/*'
+  name: artifact-name
 cache:
   paths:
-    - '/vendor/**/*'
-    - '/composer-cache/**/*'
+    - './vendor/**/*'
+    - './composer-cache/**/*'
     - '/root/.composer/**/*'
