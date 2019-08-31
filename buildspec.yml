@@ -33,4 +33,4 @@ cache:
   paths:
     - './vendor/**/*'
 #    - './composer-cache/**/*'
-    - '/root/.composer/**/*'
+#    - '/root/.composer/**/*'
