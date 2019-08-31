@@ -24,4 +24,4 @@ phases:
 cache:
   paths:
     - '/vendor/*'
-    - '/composer-cache'
+    - '/composer-cache/*'
