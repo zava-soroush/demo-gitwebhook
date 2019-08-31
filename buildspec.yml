@@ -25,9 +25,9 @@ phases:
       # - command
 artifacts:
   files:
-    - '/vendor/**/*'
-    - '/composer-cache/**/*'
-    - '/root/.composer/**/*'
+    - './vendor/**/*'
+    - './composer-cache/**/*'
+    - './root/.composer/**/*'
   name: artifact-name
 cache:
   paths:
