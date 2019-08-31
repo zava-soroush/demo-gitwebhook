@@ -17,7 +17,9 @@ phases:
     commands:
 #      - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 #      - php composer-setup.php
-      - composer install
+      - cat vendor/autoload.php
+#      - composer install
+
       #post_build:
       #commands:
       # - command
