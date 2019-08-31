@@ -18,7 +18,6 @@ phases:
 #      - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 #      - php composer-setup.php
       - composer install
-      -
       #post_build:
       #commands:
       # - command
@@ -26,3 +25,4 @@ cache:
   paths:
     - '/vendor/*'
     - '/composer-cache/*'
+    - '/root/.composer/**/*'
